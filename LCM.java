@@ -13,11 +13,11 @@ public static void main(String [] args){
 	int num1= sc.nextInt();
 	int num2 = sc.nextInt();
 	fl.find_lcm(num1,num2);					//first method
-	fl.find_least_cmultiples(num1,  num2);	//second method
+	fl.find_least_cmultiples(num1,  num2);			//second method
 }
 private void find_lcm(int no1, int no2)
 {
-	int big = no1 > no2 ? no1: no2;		//ternery operator for find big number
+	int big = no1 > no2 ? no1: no2;				//ternery operator for find big number
 	int mul =2;
 	int lcm=0;
 	
@@ -35,7 +35,7 @@ private void find_lcm(int no1, int no2)
 
 
 private void find_least_cmultiples(int no1, int no2) {
-    int big = no1 > no2 ?no1:no2;   //Terenery operator
+    int big = no1 > no2 ?no1:no2;   				//Terenery operator
     while(true) 
     {
       if((big%no1==0) && (big%no2==0))
