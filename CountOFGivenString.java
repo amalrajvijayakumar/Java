@@ -5,7 +5,7 @@ public class CountOFGivenString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CountOFGivenString cs = new CountOFGivenString();
-//		cs.check_count_string1();
+		cs.check_count_string1();
 		cs.check_count_string2();
 		
 		}
